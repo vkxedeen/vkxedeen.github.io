@@ -323,12 +323,10 @@ h6 {
 
 em {
   font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
   color: #777777;
   font-size: 12px;
   display: block;
   padding-top: 3px;
-  text-indent: 10px;
 }
 
 ol {
