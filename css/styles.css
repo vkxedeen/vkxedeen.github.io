@@ -207,10 +207,6 @@ a:hover {
 
 .self-entry p {
   text-align: justify;
-  hyphens: auto;
-  -ms-hyphens: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;	
   width: 695px;
   display: block;
   padding-top: 10px;
@@ -221,7 +217,6 @@ a:hover {
 
 .entry p {
   text-align: justify;
-  hyphens: auto;
 }
 
 .works h3 {
@@ -267,6 +262,10 @@ p {
   margin-right: 20px;
   font-size: 127%;
   line-height:1.4;
+  hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;	
 }
 
 p img {
