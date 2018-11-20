@@ -208,6 +208,9 @@ a:hover {
 .self-entry p {
   text-align: justify;
   hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;	
   width: 695px;
   display: block;
   padding-top: 10px;
@@ -251,7 +254,7 @@ h2 {
   float: left;
   padding: 0;
   margin: 0;
-  margin-left:215px;
+  margin-left:270px;
   clear: both;
   font-size: 22px;
   color: #315a60;
