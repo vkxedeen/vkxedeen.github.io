@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
 /* RESET */
 /* ----------------------------------------- */
 html,
@@ -103,7 +103,7 @@ q {
 /* ----------------------------------------- */
 
 body {
-  font-family: "Old Standard TT", "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: "Cuprum", "Trebuchet MS", Arial, Helvetica, sans-serif;
   background-color: #e1e0db;
   font-size: 13px;
   line-height: 17px;
@@ -117,12 +117,9 @@ body {
 
 a,
 a:visited,
-a:active {
-  color: #709399;
-  text-decoration: none;
-}
-
-a:hover {
+a:active,
+a:hover
+{
   color: #709399;
   text-decoration: underline;
 }
@@ -324,53 +321,12 @@ h6 {
 }
 
 em {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   color: #777777;
-  font-size: 12px;
+  font-size: 15px;
   display: block;
   padding-top: 3px;
 }
-
-ol {
-  float: right;
-  width: 500px;
-  margin-left: 40px;
-  list-style: decimal;
-}
-
-ol li {
-  width: 500px;
-  list-style-type: decimal;
-  list-style-position: inside;
-}
-
-dl {
-  float: right;
-  width: 500px;
-  margin-left: 40px;
-}
-
-dt {
-  float: left;
-  display: block;
-  width: 500px;
-  color: #709399;
-}
-
-dd {
-  float: left;
-  display: block;
-  width: 480px;
-  text-indent: 20px;
-}
-
-ul.unordered {
-  float: right;
-  width: 500px;
-  margin-left: 40px;
-}
-
-
 
 ul.info {
   float: right;
